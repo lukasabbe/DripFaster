@@ -12,8 +12,8 @@ import java.nio.file.Path;
 import java.util.Map;
 
 public class Config {
-    public float lavaDrip = 0.17578125F;
-    public float waterDrip = 0.05859375F;
+    public float lavaDrip = 0.05859375F;
+    public float waterDrip = 0.17578125F;
 
     public Config(){
         loadConfig();
