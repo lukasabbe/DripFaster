@@ -2,10 +2,12 @@
   "schemaVersion": 1,
   "id": "dripfaster",
   "version": "${version}",
-  "name": "DripFaster",
-  "description": "",
+  "name": "Drip Faster",
+  "description": "Change the drip rate of lava and water from dripstones",
   "authors": ["Lukasabbe"],
-  "contact": {},
+  "contact": {
+    "sources": "https://github.com/lukasabbe/DripFaster"
+  },
   "license": "MIT",
   "icon": "assets/dripfaster/icon.png",
   "environment": "*",
@@ -19,6 +21,6 @@
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",
-    "minecraft": ">=1.21.2"
+    "minecraft": ">=1.21.4"
   }
 }
